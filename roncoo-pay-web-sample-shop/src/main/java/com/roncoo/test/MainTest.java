@@ -57,7 +57,7 @@ public class MainTest {
 	private static void testGateWayPay( String payKey , String paySecret){
 				
 		long threadID = Thread.currentThread().getId();
-		for (int i = 0; i < 10; i++) { //每条线程生成数
+		for (int i = 0; i < 1; i++) { //每条线程生成数
 			try {
 				int random = RandomUtils.nextInt(10);
 				long sleepNum  = 10l * random;
